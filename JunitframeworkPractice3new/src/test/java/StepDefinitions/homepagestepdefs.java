@@ -17,23 +17,16 @@ public class homepagestepdefs extends webconnector{
 
 
 	public homepagemethods homepage_method;
-  //  public WebDriver dri=null;
+    public WebDriver dri=null;
 	
     public homepagestepdefs() throws IOException  {
-   //del start
-    	System.out.println("first");
-    	intialise();
-    	open_browser();
-    	gotowebsite();
-    	homepage_method  = new homepagemethods();
+
     	
- //   	del end
-    	
-    	/*	System.out.println("first");
+    		System.out.println("first");
     	intialise();
     	this.dri=open_browser();
         homepage_method  =PageFactory.initElements(dri,homepagemethods.class);
-        gotowebsite();*/
+        gotowebsite();
     }
     
 	@Before()

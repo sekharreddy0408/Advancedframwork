@@ -12,14 +12,7 @@ import Utilities.webconnector;
 
 public class homepagemethods extends webconnector{
 
-	//	del start
-	  public WebDriver dri=null;
-	
-	  public homepagemethods(){
-		  dri=open_browser();
-		  PageFactory.initElements(dri,this);
-	}
-	//del end
+
 	
 	
 	@FindBy(id="buy")
